@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/holo_green_dark"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to finish ?"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:id="@+id/lfinishpro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <include
+            android:layout_marginTop="5dp"
+            android:layout_height="50dp"
+            layout="@layout/fpro"
+            android:layout_width="50dp" />
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/finishno"
+                    android:layout_width="55dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/roundbutton"
+                    android:text="No" />
+
+                <Button
+                    android:id="@+id/finishyes"
+                    android:layout_width="55dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/roundbutton"
+                    android:text="Yes" />
+
+            </LinearLayout>
+
+</LinearLayout>

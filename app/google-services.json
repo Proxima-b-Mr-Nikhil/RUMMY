@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "749839317165",
+    "project_id": "gamerummy-89458",
+    "storage_bucket": "gamerummy-89458.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749839317165:android:b3856108ab2a60acff6e24",
+        "android_client_info": {
+          "package_name": "com.game.gamerummy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749839317165-i0e929vtv07biq0kb6ioil18ekhqve44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdpXLnV9DdIZiSGPg__G0uR8fKor3OP2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749839317165-i0e929vtv07biq0kb6ioil18ekhqve44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

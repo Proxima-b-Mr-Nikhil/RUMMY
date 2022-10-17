@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:background="@null"
+        android:id="@+id/nav"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/ic_baseline_menu_24"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+<LinearLayout
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:weightSum="2"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:textColor="@color/white"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/roundbutton"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Host Game"
+        android:id="@+id/host"
+        android:gravity="center"/>
+    <Button
+        android:textColor="@color/white"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/roundbutton"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Join Game"
+        android:id="@+id/client"
+        android:gravity="center"/>
+
+</LinearLayout>
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_marginTop="100dp"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <androidx.cardview.widget.CardView
+
+               android:layout_width="180dp"
+               android:layout_height="180dp"
+               android:elevation="12dp"
+               android:id="@+id/view2"
+               app:cardCornerRadius="100dp"
+               android:layout_centerHorizontal="true"
+               android:innerRadius="0dp"
+               android:shape="ring"
+               android:thicknessRatio="1.9">
+               <ImageView
+                   android:layout_height="180dp"
+                   android:layout_width="180dp"
+                   android:id="@+id/imageView1"
+                   android:src="@drawable/playing"
+                   android:layout_alignParentTop="true"
+                   android:layout_centerHorizontal="true">
+               </ImageView>
+
+       </androidx.cardview.widget.CardView>
+   </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:textStyle="bold"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:text="Host the game and generate room card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="13sp"
+        android:text="Tap on host game to generate room id that you can share or join game with room id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+</ScrollView>

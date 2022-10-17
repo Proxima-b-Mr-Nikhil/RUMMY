@@ -1,0 +1,31 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data class="SelectedExerciseItemBinding">
+
+        <variable
+            name="exercise"
+            type="com.game.gamerummy.CardData" />
+
+        <variable
+            name="chooseExerciseListAdapter"
+            type="com.game.gamerummy.Adapter" />
+
+    </data>
+
+    <LinearLayout
+
+        android:id="@+id/rl_exercise_type"
+        android:layout_width="30dp"
+        android:layout_height="40dp">
+
+        <ImageView
+
+            android:id="@+id/imgg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@{exercise.name}" />
+
+
+    </LinearLayout>
+
+</layout>
